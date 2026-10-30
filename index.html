@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official BeyBoss Tech certificate verification service.">
-  <title>Certificate Verification | BeyBoss Tech</title>
+  <meta name="description" content="BeyBoss Official Certificate Verification Portal.">
+  <title>BeyBoss Official Certificate Verification Portal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="wrap">
-    <header class="brand"><div class="mark">BB</div><div><strong>BEYBOSS TECH</strong><span>OFFICIAL CERTIFICATE VERIFICATION</span></div></header>
+    <header class="brand">
+      <img class="brand-logo" src="assets/beyboss-official-logo.jpg" alt="BeyBoss Computer Center — Learn, Innovate, Succeed">
+      <h1 class="portal-title">BEYBOSS OFFICIAL CERTIFICATE VERIFICATION PORTAL</h1>
+    </header>
     <section class="panel">
-      <p class="eyebrow">AUTHENTICITY CHECK</p><h1>Verify a certificate</h1>
+      <p class="eyebrow">AUTHENTICITY CHECK</p><h2>Verify a certificate</h2>
       <p class="intro">Enter the certificate number printed on the document, or open this page using its QR code.</p>
       <form id="verifyForm"><label for="certificateId">Certificate number</label><div class="inputrow"><input id="certificateId" name="id" placeholder="BBM/PSD/001/26" autocomplete="off" required><button type="submit">Verify</button></div></form>
       <div id="result" class="result" aria-live="polite"><div class="placeholder">Verification results will appear here.</div></div>
-      <p class="notice">This service confirms records held by BeyBoss Tech. Always compare the displayed details with the printed certificate.</p>
+      <p class="notice">This service confirms records held by BeyBoss. Always compare the displayed details with the printed certificate.</p>
     </section>
-    <footer>© <span id="year"></span> BeyBoss Tech · Certificate Verification</footer>
+    <footer>© <span id="year"></span> BeyBoss Computer Center · Official Certificate Verification Portal</footer>
   </main>
   <script src="config.js"></script><script src="app.js"></script>
 </body>
